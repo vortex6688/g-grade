@@ -1,0 +1,25 @@
+{
+  "name": "g-grade",
+  "version": "1.0.0",
+  "description": "G Grade Catering",
+  "main": "index.js",
+  "scripts": {
+    "simply-css": "node-sass vendor/simply-css/scss/styles.scss -o vendor/simply-css/css",
+    "simply-css-watch": "npm run css && node-sass vendor/simply-css/scss/styles.scss -wo vendor/simply-css/css",
+    "custom-css": "node-sass styles/scss/styles.scss -o styles/css",
+    "custom-css-watch": "npm run css && node-sass styles/scss/styles.scss -wo styles/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vortex6688/g-grade.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vortex6688/g-grade/issues"
+  },
+  "homepage": "https://github.com/vortex6688/g-grade#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
