@@ -165,9 +165,6 @@ ul.check .li:before {
   padding-right: 0.5em;
   color: #00ab3e; }
 
-nav.dark-theme a {
-  color: #fff; }
-
 footer {
   display: flex;
   justify-content: center;

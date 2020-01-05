@@ -1,6 +1,16 @@
+.get-started-btn a {
+  color: #d2691e;
+  transition: 0.5s all; }
+
+.get-started-btn a:hover {
+  transition: 0.5s all;
+  color: #00ab3e;
+  text-decoration: underline; }
+
 header .button:hover {
   transform: scale(1.05);
-  transition: 0.25s all; }
+  transition: 0.25s all;
+  color: #00ab3e; }
 
 footer {
   padding: 1em 0 0.5em; }
