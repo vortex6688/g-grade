@@ -44,7 +44,7 @@ a {
   text-decoration: none; }
 
 h1, h2, h3 {
-  line-height: 48px; }
+  line-height: 28px; }
 
 @media (min-width: 769px) {
   h4, h5, h6 {
@@ -92,12 +92,10 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 1.2em;
-  font-weight: 100;
   padding: 0.25em; }
 
 h6, .h6 {
   font-size: 1em;
-  font-weight: 100;
   padding: 0.125em; }
 
 hr {
@@ -108,8 +106,7 @@ hr {
 .button {
   padding: 0.2em 0.75em 0.25em;
   border: none;
-  white-space: nowrap;
-  font-size: 1em; }
+  white-space: nowrap; }
   .button.round {
     border-radius: 0.375em; }
   .button.success {
