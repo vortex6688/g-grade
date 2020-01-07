@@ -1,0 +1,16 @@
+a {
+  text-decoration: none; }
+
+.slider {
+  position: relative;
+  margin: auto; }
+
+.active-slide {
+  opacity: 1 !important; }
+
+.active-bullet {
+  background-color: #fff;
+  transform: scale(1.2); }
+
+.hidden {
+  display: none; }
