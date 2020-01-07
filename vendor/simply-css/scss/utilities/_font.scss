@@ -57,10 +57,22 @@
     font-family: cursive;
   }
 
+  // Text Decoration
+  .underline {
+    text-decoration: underline;
+  }
+
+  .highlighted {
+    color: $orange;
+  }
+
   // Font Size (forced)
   /* This type of utility will force a certain text element to have a specified 
      size only, regardless of the screen size, this element will not scale!
   */
+  .font-md {
+    font-size: $paragraph-font-size-md;
+  }
   .font-xs {
-    font-size: $html-font-size-xs;
+    font-size: $paragraph-font-size-xs;
   }

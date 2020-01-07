@@ -35,10 +35,10 @@ html {
       font-size: 14px; } }
 
 p {
-  font-size: 22px; }
+  font-size: 20px; }
   @media (max-width: 1024px) {
     p {
-      font-size: 20px; } }
+      font-size: 18px; } }
 
 a {
   text-decoration: none; }
@@ -283,11 +283,20 @@ div.sticky-footer {
 .cursive {
   font-family: cursive; }
 
+.underline {
+  text-decoration: underline; }
+
+.highlighted {
+  color: #d2691e; }
+
 /* This type of utility will force a certain text element to have a specified 
      size only, regardless of the screen size, this element will not scale!
   */
+.font-md {
+  font-size: 18px; }
+
 .font-xs {
-  font-size: 13px; }
+  font-size: 14px; }
 
 .p-025 {
   padding: 0.25em; }
@@ -416,6 +425,14 @@ div.sticky-footer {
 
 .ml-2 {
   margin-left: 2em; }
+
+.mx-2 {
+  margin-left: 2em;
+  margin-right: 2em; }
+
+.my-2 {
+  margin-top: 2em;
+  margin-bottom: 2em; }
 
 .hidden {
   display: none; }

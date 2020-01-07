@@ -20,10 +20,10 @@ html {
 }
 
 p {
-  font-size: $paragraph-font-size-xl;
+  font-size: $paragraph-font-size-lg;
   
   @media (max-width: 1024px) {
-      font-size: $paragraph-font-size-lg;
+      font-size: $paragraph-font-size-md;
   }
 }
 
