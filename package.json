@@ -1,7 +1,7 @@
 {
-  "name": "g-grade",
+  "name": "Professional As Always",
   "version": "1.0.0",
-  "description": "G Grade Catering",
+  "description": "Professional As Always",
   "main": "index.js",
   "scripts": {
     "simply-css": "node-sass vendor/simply-css/scss/styles.scss -o vendor/simply-css/css",
