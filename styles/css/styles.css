@@ -3,7 +3,7 @@ body {
   margin: auto; }
   @media (max-width: 1200px) {
     body {
-      max-width: 90%; } }
+      max-width: 85%; } }
   @media (max-width: 640px) {
     body {
       max-width: 95%; } }
