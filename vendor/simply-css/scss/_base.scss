@@ -77,7 +77,10 @@ h3, .h3 {
 
   @media (max-width: 640px) {
     font-size: $h3 * 0.75;
-    // Enlarge to the original size to prevent expected scaling
+    // Enlarge to the specified breakpoint size to prevent/overwrite expected scaling
+    &.enlarge-md {
+      font-size: $h3 * 0.9;
+    }
     &.enlarge-lg {
       font-size: $h3 * 1;
     }
@@ -94,7 +97,7 @@ h4, .h4 {
 
   @media (max-width: 640px) {
     font-size: $h4 * 0.75;
-    // Enlarge to the original size to prevent expected scaling
+    // Enlarge to the specified breakpoint size to prevent/overwrite expected scaling
     &.enlarge-lg {
       font-size: $h4 * 1;
     }
