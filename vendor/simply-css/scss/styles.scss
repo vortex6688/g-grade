@@ -38,6 +38,10 @@ body {
     background: $white;
     color: $black;
   }
+
+  &.white-font {
+    color: $white;
+  }
 }
 
 // Break points:

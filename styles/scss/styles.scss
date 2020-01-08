@@ -7,6 +7,9 @@ body {
   // @media (max-width: 640px) {
   //   max-width: 95%;
   // }
+  background: url('../../images/restaurant.jpg') rgba(62, 56, 56, 0.5);
+  background-size:cover;
+  background-blend-mode: color-burn;
 }
 
 .get-started-btn {

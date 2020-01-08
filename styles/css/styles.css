@@ -1,6 +1,9 @@
 body {
   max-width: 60%;
-  margin: auto; }
+  margin: auto;
+  background: url("../../images/restaurant.jpg") rgba(62, 56, 56, 0.5);
+  background-size: cover;
+  background-blend-mode: color-burn; }
   @media (max-width: 1200px) {
     body {
       max-width: 85%; } }
