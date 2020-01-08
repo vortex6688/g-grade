@@ -76,7 +76,7 @@ const slidexConfig = {
   // <----------------------->
 
   // Set border radius if needed, (0 is the default value)
-  borderRadius: "1em"
+  borderRadius: "0 0 1em 1em"
   // <----------------------->
 }
 
