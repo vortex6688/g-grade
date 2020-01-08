@@ -16,6 +16,9 @@ so "display: flex" have to be present for any layout to work. */
     flex-wrap: wrap;
   }
 }
+.inline-flex {
+  display: inline-flex;
+}
 .column {
   display: flex;
   flex-direction: column;

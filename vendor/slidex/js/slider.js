@@ -23,8 +23,10 @@ const slidexConfig = {
   // Slider size settings
   // Define your custom slider width 
   // (it will be parsed in %, but no "%" needed, only specify the number, e.g. 75 or 90 )
+  // customWidth is tipically applied when the screen 1200px and larger
+  // customWidthMobile is applied for the screens smaller that 1200px
   customWidth: 60,
-  customWidthMobile: 80,
+  customWidthMobile: 85,
   resolutionWidth: 16,
   resolutionHeight: 9,
   // <----------------------->
@@ -108,23 +110,21 @@ if (slider && slidexConfig.gallery.length > 0) {
     // Calling sliderSize function first to set the size of the element
     // Default size and resolution will be set and can be configured by editing "slidexConfig" 
 
-// This area needs to be documented!!!
-    
+    // Exicuting a function to set the slider width and resolution
     if (window.innerWidth <= 1200) {
       sliderSize(
         slidexConfig.customWidthMobile,
         slidexConfig.resolutionWidth,
         slidexConfig.resolutionHeight
       );
-    } else {
+    } else if (window.innerWidth >= 1201) {
       sliderSize(
         slidexConfig.customWidth,
         slidexConfig.resolutionWidth,
         slidexConfig.resolutionHeight
       );
     }
-
-// <------------------------>
+    // <------------------------>
 
     // If gallery contains more than 1 item, div element will be created for every item
     // First (or 0 position in the array) item will be displayed, other items will be hidden

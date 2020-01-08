@@ -1,7 +1,7 @@
 body {
   max-width: 60%;
   margin: auto;
-  @media (max-width: 1024px) {
+  @media (max-width: 1200px) {
     max-width: 85%;
   }
 }
@@ -17,10 +17,19 @@ body {
   }
 }
 
-header .button:hover {
+header a:hover {
   transform: scale(1.05);
   transition: 0.25s all;
   color: #00ab3e;
+}
+
+.nav-trigger-arrow {
+  transform: rotate(0deg);
+  transition: all 0.5s;
+  &.close {
+    transform: rotate(180deg);
+    transition: all 0.5s;
+  }
 }
 
 footer {

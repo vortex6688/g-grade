@@ -93,6 +93,29 @@
     margin-top: auto;
     margin-bottom: auto;
   }
+  .m-05 {
+    margin: 0.5em;
+  }
+  .mt-05 {
+    margin-top: 0.5em;
+  }
+  .mb-05 {
+    margin-bottom: 0.5em;
+  }
+  .mr-05 {
+    margin-right: 0.5em;
+  }
+  .ml-05 {
+    margin-left: 0.5em;
+  }
+  .mx-05 {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+  .my-05 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
   .m-1 {
     margin: 1em;
   }
@@ -138,4 +161,37 @@
   .my-2 {
     margin-top: 2em;
     margin-bottom: 2em;
+  }
+
+  // Margin for MD and smaller screens
+  @media (max-width: $md-and-down) {
+    .m-md-0 {
+      margin: 0;
+    }
+    .m-md-1 {
+      margin: 1em;
+    }
+    .mt-md-1 {
+      margin-top: 1em;
+    }
+    .mb-md-1 {
+      margin-bottom: 1em;
+    }
+    .mr-md-1 {
+      margin-right: 1em;
+    }
+    .ml-md-1 {
+      margin-left: 1em;
+    }
+    .mx-md-1 {
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+    .my-md-1 {
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+    .m-md-2 {
+      margin: 2em;
+    }
   }
