@@ -15,8 +15,27 @@
   }
 
   // Text variations
-  .cursive {
-    font-family: cursive;
+
+  @media (min-width: $lg-and-up) {
+    .sans-serif-lg-up {
+      font-family: sans-serif;
+    }
+  }
+  @media (max-width: $md-and-down) {
+    .sans-serif-md {
+      font-family: sans-serif;
+    }
+  }
+
+  @media (min-width: $lg-and-up) {
+    .cursive-lg-up {
+      font-family: cursive;
+    }
+  }
+  @media (max-width: $md-and-down) {
+    .cursive-md-down {
+      font-family: cursive;
+    }
   }
 
   // Text Colors
@@ -50,11 +69,6 @@
   }
   .skinny {
     font-weight: 100;
-  }
-
-  // Font Family
-  .cursive {
-    font-family: cursive;
   }
 
   // Text Decoration

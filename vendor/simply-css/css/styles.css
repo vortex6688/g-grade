@@ -78,11 +78,7 @@ h3, .h3 {
       font-size: 1.98em; } }
   @media (max-width: 640px) {
     h3, .h3 {
-      font-size: 1.65em; }
-      h3.enlarge-md, .h3.enlarge-md {
-        font-size: 1.98em; }
-      h3.enlarge-lg, .h3.enlarge-lg {
-        font-size: 2.2em; } }
+      font-size: 1.65em; } }
 
 h4, .h4 {
   font-size: 1.8em;
@@ -92,9 +88,7 @@ h4, .h4 {
       font-size: 1.62em; } }
   @media (max-width: 640px) {
     h4, .h4 {
-      font-size: 1.35em; }
-      h4.enlarge-lg, .h4.enlarge-lg {
-        font-size: 1.8em; } }
+      font-size: 1.35em; } }
 
 h5, .h5 {
   font-size: 1.2em;
@@ -260,8 +254,21 @@ div.sticky-footer {
 .capitalize {
   text-transform: capitalize; }
 
-.cursive {
-  font-family: cursive; }
+@media (min-width: 1024px) {
+  .sans-serif-lg-up {
+    font-family: sans-serif; } }
+
+@media (max-width: 1023px) {
+  .sans-serif-md {
+    font-family: sans-serif; } }
+
+@media (min-width: 1024px) {
+  .cursive-lg-up {
+    font-family: cursive; } }
+
+@media (max-width: 1023px) {
+  .cursive-md-down {
+    font-family: cursive; } }
 
 .c-black {
   color: #000; }
@@ -289,9 +296,6 @@ div.sticky-footer {
 
 .skinny {
   font-weight: 100; }
-
-.cursive {
-  font-family: cursive; }
 
 .underline {
   text-decoration: underline; }
