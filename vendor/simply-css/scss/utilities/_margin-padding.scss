@@ -116,6 +116,33 @@
     padding-bottom: 2em;
   }
 
+  // Padding for MD and smaller screens
+  @media (max-width: $md-and-down) {
+    .p-md-05 {
+      padding: 0.5em;
+    }
+    .pt-md-05 {
+      padding-top: 0.5em;
+    }
+    .pb-md-05 {
+      padding-bottom: 0.5em;
+    }
+    .pr-md-05 {
+      padding-right: 0.5em;
+    }
+    .pl-md-05 {
+      padding-left: 0.5em;
+    }
+    .px-md-05 {
+      padding-right: 0.5em;
+      padding-left: 0.5em;
+    }
+    .py-md-05 {
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+    }
+  }
+
   // Margin
   .m-auto {
     margin: auto;
@@ -127,6 +154,29 @@
   .my-auto {
     margin-top: auto;
     margin-bottom: auto;
+  }
+  .m-025 {
+    margin: 0.25em;
+  }
+  .mt-025 {
+    margin-top: 0.25em;
+  }
+  .mb-025 {
+    margin-bottom: 0.25em;
+  }
+  .mr-025 {
+    margin-right: 0.25em;
+  }
+  .ml-025 {
+    margin-left: 0.5em;
+  }
+  .mx-025 {
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+  }
+  .my-025 {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
   }
   .m-05 {
     margin: 0.5em;
@@ -173,6 +223,29 @@
   .my-1 {
     margin-top: 1em;
     margin-bottom: 1em;
+  }
+  .m-1-5 {
+    margin: 1.5em;
+  }
+  .mt-1-5 {
+    margin-top: 1.5em;
+  }
+  .mb-1-5 {
+    margin-bottom: 1.5em;
+  }
+  .mr-1-5 {
+    margin-right: 1.5em;
+  }
+  .ml-1-5 {
+    margin-left: 1.5em;
+  }
+  .mx-1-5 {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+  }
+  .my-1-5 {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
   }
   .m-2 {
     margin: 2em;
@@ -271,6 +344,29 @@
     .my-md-1 {
       margin-top: 1em;
       margin-bottom: 1em;
+    }
+    .m-md-1-5 {
+      margin: 1.5em;
+    }
+    .mt-md-1-5 {
+      margin-top: 1.5em;
+    }
+    .mb-md-1-5 {
+      margin-bottom: 1.5em;
+    }
+    .mr-md-1-5 {
+      margin-right: 1.5em;
+    }
+    .ml-md-1-5 {
+      margin-left: 1.5em;
+    }
+    .mx-md-1-5 {
+      margin-left: 1.5em;
+      margin-right: 1.5em;
+    }
+    .my-md-1-5 {
+      margin-top: 1.5em;
+      margin-bottom: 1.5em;
     }
     .m-md-2 {
       margin: 2em;
