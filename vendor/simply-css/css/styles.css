@@ -474,6 +474,22 @@ div.sticky-footer {
 @media (max-width: 1023px) {
   .m-md-0 {
     margin: 0; }
+  .m-md-05 {
+    margin: 0.5em; }
+  .mt-md-05 {
+    margin-top: 0.5em; }
+  .mb-md-05 {
+    margin-bottom: 0.5em; }
+  .mr-md-05 {
+    margin-right: 0.5em; }
+  .ml-md-05 {
+    margin-left: 0.5em; }
+  .mx-md-05 {
+    margin-left: 0.5em;
+    margin-right: 0.5em; }
+  .my-md-05 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em; }
   .m-md-1 {
     margin: 1em; }
   .mt-md-1 {
@@ -509,6 +525,9 @@ div.sticky-footer {
 
 .border-01 {
   border: 0.1em #fff solid; }
+
+.border-bottom-01 {
+  border-bottom: 0.1em #fff solid; }
 
 body.dark-theme {
   background: #1a1919;
