@@ -52,6 +52,11 @@ so "display: flex" have to be present for any layout to work. */
   align-self: center;
 }
 
+// Background utilities (layout of the background elenets, attachment options and so on)
+.bg-fixed {
+  background-attachment: fixed;
+}
+
 /* --- Sticky Footer Layout --- */
 // Flexbox sticky footer approach
 // In order for this layout to work, class .stivky footer must be applied on the html, body tags and also body must contain 

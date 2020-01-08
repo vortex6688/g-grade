@@ -241,6 +241,9 @@ so "display: flex" have to be present for any layout to work. */
   display: flex;
   align-self: center; }
 
+.bg-fixed {
+  background-attachment: fixed; }
+
 /* --- Sticky Footer Layout --- */
 html.sticky-footer {
   height: 100%; }
