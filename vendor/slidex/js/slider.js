@@ -25,8 +25,8 @@ const slidexConfig = {
   // (it will be parsed in %, but no "%" needed, only specify the number, e.g. 75 or 90 )
   // customWidth is tipically applied when the screen 1200px and larger
   // customWidthMobile is applied for the screens smaller that 1200px
-  customWidth: 60,
-  customWidthMobile: 90,
+  customWidth: 50,
+  customWidthMobile: 80,
   resolutionWidth: 16,
   resolutionHeight: 9,
   // <----------------------->
@@ -72,7 +72,11 @@ const slidexConfig = {
   // <----------------------->
 
   // Set the color of the backgroung of the slider ("none" is set by default, which is transparent)
-  slideBGColor: "none"
+  slideBGColor: "none",
+  // <----------------------->
+
+  // Set border radius if needed, (0 is the default value)
+  borderRadius: "1em"
   // <----------------------->
 }
 
@@ -144,6 +148,7 @@ if (slider && slidexConfig.gallery.length > 0) {
           z-index: ${index};
           opacity: 0;
           transition: ${slidexConfig.slideChangeAnimationLength}s;
+          border-radius: ${slidexConfig.borderRadius};
         `);
         slide.classList.add(`slide-${index}`);
         slider.appendChild(slide);
