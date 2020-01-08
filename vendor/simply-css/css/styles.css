@@ -78,7 +78,9 @@ h3, .h3 {
       font-size: 1.98em; } }
   @media (max-width: 640px) {
     h3, .h3 {
-      font-size: 1.65em; } }
+      font-size: 1.65em; }
+      h3.enlarge-lg, .h3.enlarge-lg {
+        font-size: 2.2em; } }
 
 h4, .h4 {
   font-size: 1.8em;
