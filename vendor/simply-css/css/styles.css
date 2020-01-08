@@ -90,7 +90,9 @@ h4, .h4 {
       font-size: 1.62em; } }
   @media (max-width: 640px) {
     h4, .h4 {
-      font-size: 1.35em; } }
+      font-size: 1.35em; }
+      h4.enlarge-lg, .h4.enlarge-lg {
+        font-size: 1.8em; } }
 
 h5, .h5 {
   font-size: 1.2em;
