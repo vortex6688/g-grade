@@ -312,6 +312,29 @@ div.sticky-footer {
 .font-xs {
   font-size: 14px; }
 
+.p-0 {
+  padding: 0; }
+
+.pt-0 {
+  padding-top: 0em; }
+
+.pb-0 {
+  padding-bottom: 0em; }
+
+.pr-0 {
+  padding-right: 0em; }
+
+.pl-0 {
+  padding-left: 0em; }
+
+.px-0 {
+  padding-right: 0em;
+  padding-left: 0em; }
+
+.py-0 {
+  padding-top: 0em;
+  padding-bottom: 0em; }
+
 .p-025 {
   padding: 0.25em; }
 
@@ -325,6 +348,18 @@ div.sticky-footer {
 
 .p-05 {
   padding: 0.5em; }
+
+.pt-05 {
+  padding-top: 0.5em; }
+
+.pb-05 {
+  padding-bottom: 0.5em; }
+
+.pr-05 {
+  padding-right: 0.5em; }
+
+.pl-05 {
+  padding-left: 0.5em; }
 
 .px-05 {
   padding-right: 0.5em;

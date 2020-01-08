@@ -3,7 +3,7 @@ a {
 
 .slider {
   position: relative;
-  margin: auto; }
+  margin: 0 auto; }
 
 .active-slide {
   opacity: 1 !important; }
