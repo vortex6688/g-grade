@@ -4,9 +4,6 @@ body {
   @media (max-width: 1200px) {
     body {
       max-width: 85%; } }
-  @media (max-width: 640px) {
-    body {
-      max-width: 95%; } }
 
 .get-started-btn a {
   transition: 0.5s all; }
