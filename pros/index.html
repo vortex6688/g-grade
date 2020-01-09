@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="icon" href="favicon.ico">
-  <link rel="stylesheet" href="vendor/simply-css/css/styles.css" />
-  <link rel="stylesheet" href="vendor/slidex/style/style.css" />
-  <link rel="stylesheet" href="styles/css/styles.css" />
+  <link rel="stylesheet" href="../vendor/simply-css/css/styles.css" />
+  <link rel="stylesheet" href="../vendor/slidex/style/style.css" />
+  <link rel="stylesheet" href="../styles/css/styles.css" />
   <title>Professional As Always</title>
 </head>
 <body class="white-font">
@@ -22,35 +22,30 @@
       <p class="font-md"><span class="c-light-blue">Email</span>: alwaysprocatering@nyc.com</p>
     </div>
     <nav class="flex space-around hidden-md-down w-100 py-025 mt-1-5" style="background: rgba(0, 0, 0, 0.75); border-radius: 0 0 1em 1em;">
-      <a href="#" class="button c-light-blue"><h5>Home</h5></a>
+      <a href="../index.html" class="button c-light-blue"><h5>Home</h5></a>
       <a href="#" class="button c-light-blue"><h5>Services</h5></a>
-      <a href="pros/index.html" class="button c-light-blue"><h5>Our Professionals</h5></a>
-      <a href="about-us/index.html" class="button c-light-blue"><h5>About Us</h5></a>
+      <a href="" class="button c-light-blue"><h5>Our Professionals</h5></a>
+      <a href="../about-us/index.html" class="button c-light-blue"><h5>About Us</h5></a>
     </nav>
   </header>
   <section>
     <div class="social space-around mt-05" style="background: rgba(255, 255, 255, 0.75); border-radius: 1em 1em 0 0;">
-      <img class="py-075" style="width: 2.6em;" src="images/facebook.png" />
-      <img class="py-075" style="width: 2.6em;" src="images/instagram-round.png" />
-      <img class="py-075" style="width: 2.6em;" src="images/linkedin-dark.png" />
-      <img class="py-075" style="width: 2.6em;" src="images/twitter-round.png" />
+      <img class="py-075" style="width: 2.6em;" src="../images/facebook.png" />
+      <img class="py-075" style="width: 2.6em;" src="../images/instagram-round.png" />
+      <img class="py-075" style="width: 2.6em;" src="../images/linkedin-dark.png" />
+      <img class="py-075" style="width: 2.6em;" src="../images/twitter-round.png" />
     </div>
   </section>
   <section class="center-top sticky-footer">
-    <div class="slider"></div>
-    <div class="column mt-05 w-100 round-1" style="background: rgba(0, 0, 0, 0.25)">
-      <p class="mt-1">We offer a veriety of services, and highly professional staff!</p>
-      <p class="font-md my-05">To register your first event with us, simply click:</p>
-      <div class="get-started-btn mb-1">
-        <a href="#" class="h5 underline c-light-blue">Get Started</a>
-      </div>
+    <div class="column px-2 pb-2" style="height: 100%; background: rgba(0, 0, 0, 0.5); background-size: 100% 100%; border-radius: 0 0 1em 1em;">
+      <h3 class="capitalize cursive-lg-up sans-serif-md-down mt-025">Our Professionals</h3>
+      <p>Here is a list of our professionals:</p>
     </div>
   </section>
   <footer class="footer">
     <div>
       <p class="font-xs">All rights reserved, PAAC, 2020</p>
     </div>
-    <script src="vendor/slidex/js/slider.js"></script>
     <script>
       navToggle = () => {
         document.querySelector("header").classList.toggle('open');

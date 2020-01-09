@@ -12,15 +12,14 @@ body {
   background-blend-mode: color-burn;
 }
 
-.get-started-btn {
-  a {
-    transition: 0.5s all;
-  }
-  a:hover {
-    transition: 0.5s all;
-    color: #fdc244;
-  }
+a {
+  transition: 0.5s all;
 }
+a:hover {
+  transition: 0.5s all;
+  color: #fdc244;
+}
+
 
 header a:hover {
   transform: scale(1.05);
