@@ -26,7 +26,8 @@ const slidexConfig = {
   // customWidth is tipically applied when the screen 1200px and larger
   // customWidthMobile is applied for the screens smaller that 1200px
   customWidth: 60,
-  customWidthMobile: 90,
+  customWidthMobile1200: 90,
+  customWidthMobile1200: 95,
   resolutionWidth: 16,
   resolutionHeight: 9,
   // <----------------------->
@@ -115,9 +116,16 @@ if (slider && slidexConfig.gallery.length > 0) {
     // Default size and resolution will be set and can be configured by editing "slidexConfig" 
 
     // Exicuting a function to set the slider width and resolution
-    if (window.innerWidth <= 1200) {
+    if (window.innerWidth <= 640) {
       sliderSize(
-        slidexConfig.customWidthMobile,
+        slidexConfig.customWidthMobile640,
+        slidexConfig.resolutionWidth,
+        slidexConfig.resolutionHeight
+      );
+    }
+    else if (window.innerWidth <= 1200) {
+      sliderSize(
+        slidexConfig.customWidthMobile1200,
         slidexConfig.resolutionWidth,
         slidexConfig.resolutionHeight
       );
