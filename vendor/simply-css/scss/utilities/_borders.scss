@@ -5,16 +5,22 @@
     border-radius: 1em;
   }
 
-  // Solid line borders
-  .border-01-white {
+  // Solid line borders white
+  .border-1-white {
     border: 0.1em #fff solid;
   }
-  .border-bottom-01 {
+  .border-bottom-1 {
     border-bottom: 0.1em #fff solid;
+  }
+  .border-05-white {
+    border: 0.05em #fff solid;
+  }
+  .border-bottom-05 {
+    border-bottom: 0.05em #fff solid;
   }
 
   @media (min-width: $lg-and-up) {
-    .border-01-white-lg-up {
+    .border-1-white-lg-up {
       border: 0.1em #fff solid;
     }
   }

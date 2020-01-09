@@ -688,14 +688,20 @@ div.sticky-footer {
 .round-1 {
   border-radius: 1em; }
 
-.border-01-white {
+.border-1-white {
   border: 0.1em #fff solid; }
 
-.border-bottom-01 {
+.border-bottom-1 {
   border-bottom: 0.1em #fff solid; }
 
+.border-05-white {
+  border: 0.05em #fff solid; }
+
+.border-bottom-05 {
+  border-bottom: 0.05em #fff solid; }
+
 @media (min-width: 1024px) {
-  .border-01-white-lg-up {
+  .border-1-white-lg-up {
     border: 0.1em #fff solid; } }
 
 body.dark-theme {

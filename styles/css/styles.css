@@ -6,7 +6,7 @@ body {
   background-blend-mode: color-burn; }
   @media (max-width: 1200px) {
     body {
-      max-width: 85%; } }
+      max-width: 90%; } }
 
 .get-started-btn a {
   transition: 0.5s all; }
