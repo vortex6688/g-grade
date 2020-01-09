@@ -27,7 +27,7 @@ const slidexConfig = {
   // customWidthMobile is applied for the screens smaller that 1200px
   customWidth: 60,
   customWidthMobile1200: 90,
-  customWidthMobile1200: 95,
+  customWidthMobile640: 95,
   resolutionWidth: 16,
   resolutionHeight: 9,
   // <----------------------->
