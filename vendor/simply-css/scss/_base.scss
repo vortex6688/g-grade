@@ -21,7 +21,6 @@ html {
 
 p {
   font-size: $paragraph-font-size-lg;
-  word-break: break-all;
   
   @media (max-width: 1024px) {
       font-size: $paragraph-font-size-md;
