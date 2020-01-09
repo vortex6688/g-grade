@@ -13,10 +13,10 @@ const slidexConfig = {
   // The path of the assets may have to be configured!
 
   // Essential* Slider settings 
-  // Set navigation arrow images path
+  // Set navigation arrow images path (vendor/slidex/images/`imagename`.png - is a default path)
   navPrevButtonImgPath: "vendor/slidex/images/arrow-left.png",
   navNextButtonImgPath: "vendor/slidex/images/arrow-right.png",
-  // Set the slider images folder path
+  // Set the slider images folder path (vendor/slidex/images/gallery - is a default path)
   galleryImagesFolderPath: "vendor/slidex/images/gallery",
   // <----------------------->
 
