@@ -86,6 +86,11 @@
     color: $orange;
   }
 
+  // Cursor utilities
+  .pointer {
+    cursor: pointer;
+  }
+
   // Font Size (forced)
   /* This type of utility will force a certain text element to have a specified 
      size only, regardless of the screen size, this element will not scale!

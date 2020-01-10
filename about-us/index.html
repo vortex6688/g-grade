@@ -12,7 +12,14 @@
 </head>
 <body class="white-font">
   <header class="column align-items-center round-1 px-md-05" style="background: rgba(0, 0, 0, 0.25)">
-    <div class="border-bottom-05 justify-center align-items-baseline hidden-lg-up w-100 mt-05" style="height: 2.5em;" onclick="navToggle()">
+    <nav class="column mobile align-items-center w-100 hidden-lg-up hide">
+      <a href="../index.html" class="button c-light-blue"><h5>Home</h5></a>
+      <a href="#" class="button c-light-blue"><h5>Services</h5></a>
+      <a href="../pros/index.html" class="button c-light-blue"><h5>Our Professionals</h5></a>
+      <a href="" class="button c-light-blue"><h5>About Us</h5></a>
+      <a class="button c-yellow nav-close">X Close</a>
+    </nav>
+    <div class="border-bottom-05 justify-center align-items-baseline hidden-lg-up pointer w-100 mt-05 nav-toggle" style="height: 2.5em;">
       <h5>MENU</h5>
     </div> 
     <h3 class="capitalize cursive-lg-up sans-serif-md-down c-yellow mt-025">Professional As Always</h3>
@@ -61,13 +68,18 @@
       <p class="font-xs">All rights reserved, PAAC, 2020</p>
     </div>
     <script>
-      navToggle = () => {
-        document.querySelector("header").classList.toggle('open');
-        const navTriggerArrows = document.querySelectorAll(".nav-trigger-arrow");
-        navTriggerArrows.forEach((img) => {
-          img.classList.toggle('close');
-        });
-      }
+      const navHeight = document.querySelector('.mobile').offsetHeight;
+      const mobileNav = document.querySelector(".mobile");
+      mobileNav.setAttribute("style", `margin-top: -${navHeight}px; transition: 0s;`);
+      
+      document.querySelector(".nav-toggle").addEventListener("click", () =>
+      {
+        mobileNav.hasAttribute("style") ? document.querySelector(".mobile").removeAttribute("style") : document.querySelector(".mobile").setAttribute("style", `margin-top: -${navHeight}px;`);
+      });
+      document.querySelector(".nav-close").addEventListener("click", () =>
+      {
+        mobileNav.hasAttribute("style") ? document.querySelector(".mobile").removeAttribute("style") : document.querySelector(".mobile").setAttribute("style", `margin-top: -${navHeight}px;`);
+      });
     </script>
   </footer>
 </body>

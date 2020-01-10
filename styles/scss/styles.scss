@@ -1,6 +1,7 @@
 body {
   max-width: 60%;
   margin: auto;
+  overflow-y: scroll;
   @media (max-width: 1200px) {
     max-width: 90%;
   }
@@ -17,13 +18,7 @@ a {
 }
 a:hover {
   transition: 0.5s all;
-  color: #fdc244;
-}
-
-
-header a:hover {
   transform: scale(1.05);
-  transition: 0.25s all;
   color: #fdc244;
 }
 
@@ -34,6 +29,19 @@ p {
 nav {
   box-shadow: 0px 0px 10px 0px #656668;
 }
+
+nav.mobile {
+  background: rgba(0, 0, 0, 0.75); border-radius: 0 0 1em 1em;
+  transition: 0.5s all;
+}
+
+// .nav-handle {
+//   transition: 0.5s ease-out;
+//   &.hide {
+//     margin-top: -30%;
+//     transition: 0.5s ease-in;
+//   }
+// }
 
 footer {
   padding: 1em 0 0.5em;
