@@ -68,15 +68,20 @@
       <p class="font-xs">All rights reserved, PAAC, 2020</p>
     </div>
     <script>
-      const navHeight = document.querySelector('.mobile').offsetHeight;
+      const navHeight = document.querySelector('.mobile').offsetHeight + 2;
       const mobileNav = document.querySelector(".mobile");
+      const navToggleButton = document.querySelector(".nav-toggle");
+      const navCloseButton = document.querySelector(".nav-close");
+
+      // Setting styles to hide mobile nav by default
       mobileNav.setAttribute("style", `margin-top: -${navHeight}px; transition: 0s;`);
-      
-      document.querySelector(".nav-toggle").addEventListener("click", () =>
+
+      // Setting up event listeners to manipulate the navigation element
+      navToggleButton.addEventListener("click", () =>
       {
         mobileNav.hasAttribute("style") ? document.querySelector(".mobile").removeAttribute("style") : document.querySelector(".mobile").setAttribute("style", `margin-top: -${navHeight}px;`);
       });
-      document.querySelector(".nav-close").addEventListener("click", () =>
+      navCloseButton.addEventListener("click", () =>
       {
         mobileNav.hasAttribute("style") ? document.querySelector(".mobile").removeAttribute("style") : document.querySelector(".mobile").setAttribute("style", `margin-top: -${navHeight}px;`);
       });
