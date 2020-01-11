@@ -2,7 +2,7 @@ body {
   max-width: 60%;
   margin: auto;
   overflow-y: scroll;
-  background: url("./../../images/restaurant.jpg") rgba(62, 56, 56, 0.25);
+  background: url("./../../images/bg-2.jpg") rgba(62, 56, 56, 0.36);
   background-size: cover;
   background-blend-mode: color-burn; }
   @media (max-width: 1200px) {

@@ -53,7 +53,7 @@ const slidexConfig = {
   // (Item listed in the array first, will be displayed first, second - will be shown second)
   // The data will be stored in the "gallery" array, example with the default slides illustrated below
   // Full name of the document must be provided, including it's extension (.jpg .png and so on)
-  gallery: ["1.jpg", "2.jpg", "3.jpg", "4.jpg"],
+  gallery: ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg"],
   // <----------------------->
 
   // enable/disable Holding the slideshow when mouse cursor is over the slider (enabled by default)
