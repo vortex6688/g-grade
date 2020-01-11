@@ -35,13 +35,12 @@ nav.mobile {
   transition: 0.5s all;
 }
 
-// .nav-handle {
-//   transition: 0.5s ease-out;
-//   &.hide {
-//     margin-top: -30%;
-//     transition: 0.5s ease-in;
-//   }
-// }
+.social {
+  line-height: 0;
+  img {
+    width: 2.4em;
+  }
+}
 
 footer {
   padding: 1em 0 0.5em;
