@@ -32,7 +32,8 @@ nav.mobile {
   transition: 0.5s all; }
 
 .social {
-  line-height: 0; }
+  line-height: 0;
+  background: rgba(255, 255, 255, 0.75); }
   .social img {
     width: 2.4em; }
 
