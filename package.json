@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/vortex6688/g-grade#readme",
   "devDependencies": {
-    "node-sass": "^4.13.0"
+    "node-sass": "^7.0.0"
   }
 }
